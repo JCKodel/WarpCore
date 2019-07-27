@@ -1,0 +1,39 @@
+{
+    "defaultSeverity": "error",
+    "extends": [
+        "tslint:recommended"
+    ],
+    "jsRules": {},
+    "linterOptions": {
+        "exclude": [
+            "**/*.d.ts"
+        ]
+    },
+    "rules": {
+        "one-line": false,
+        "ordered-imports": false,
+        "whitespace": false,
+        "member-ordering": false,
+        "max-classes-per-file": false,
+        "object-literal-sort-keys": false,
+        "no-reference": false,
+        "no-bitwise": false,
+        "no-angle-bracket-type-assertion": false,
+        "no-console": true,
+        "indent": false,
+        "jsdoc-format": false,
+        "forin": false,
+        "align": false,
+        "no-namespace": false,
+        "no-empty-interface": false,
+        "object-literal-key-quotes": [
+            true,
+            "consistent"
+        ],
+        "variable-name": {
+            "options": "allow-leading-underscore"
+        },
+        "max-line-length": false
+    },
+    "rulesDirectory": []
+}
