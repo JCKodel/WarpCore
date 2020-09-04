@@ -10,7 +10,7 @@
 	"author": "Ardian Shala",
 	"license": "MIT",
 	"dependencies": {
-		"mithril": "^2.0.1",
+		"mithril": "^2.0.3",
 		"mithril-tsx-component": "^3.0.1"
 	},
 	"devDependencies": {
